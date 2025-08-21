@@ -6,7 +6,7 @@ on:
     branches: [master]
 
 permissions:
-  contents: write
+  content: write
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
